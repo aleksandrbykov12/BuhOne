@@ -1,0 +1,19 @@
+.clients {
+    padding: 100px 0;
+    background: #EBEBEB;
+}
+
+.clients h3 {
+    margin-bottom: 80px;
+}
+
+.clients__items {
+    display: flex;
+    gap: 30px;
+}
+
+.clients__item {
+    width: 255px;
+    flex-wrap: nowrap;
+    color: #005fa3;
+}

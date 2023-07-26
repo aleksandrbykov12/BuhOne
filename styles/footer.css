@@ -1,0 +1,28 @@
+.footer {
+    padding: 50px 0;
+    margin-top: 50px;
+    background: #F9F9F9;
+    color: #000;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer__text {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%; /* 19.32px */
+}
+
+.footer__information {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%; /* 19.32px */
+}

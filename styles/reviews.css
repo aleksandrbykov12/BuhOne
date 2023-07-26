@@ -1,0 +1,50 @@
+.reviews {
+    padding: 140px 0;
+    color: #000;
+}
+
+.reviews h3 {
+    margin-bottom: 80px;
+}
+
+.reviews__wrapper {
+    padding: 45px 95px;
+    background: #EBEBEB;
+}
+
+.reviews__text {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%; /* 24.84px */
+}
+
+.reviews__card {
+    margin-top: 58px;
+    display: flex;
+    gap: 35px;
+}
+
+.reviews__card-photo {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.reviews__name {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 138%; /* 24.84px */
+}
+
+.reviews__company {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138%; /* 19.32px */
+    color: var(--4-f-4-f-4-f, #4F4F4F);
+}

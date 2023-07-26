@@ -1,0 +1,41 @@
+.welcome {
+    color: #fff;
+}
+
+.welcome__image {
+    position: relative;
+    height: 670px;
+}
+
+.welcome-wrapper {
+    position: absolute;
+    top: 170px;
+}
+
+.welcome__title {
+    margin-bottom: 80px;
+    width: 600px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.27%;
+}
+
+.welcome__btn {
+    width: 270px;
+    height: 60px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138%;
+    border: 0;
+    background: var(--accent, #005FA3);
+    color: #fff;
+}
+
+.welcome__btn:hover {
+    border: 1px solid #005FA3;
+    background: none;
+}

@@ -1,0 +1,46 @@
+@import url(../styles/header.css);
+@import url(../styles/welcome.css);
+@import url(../styles/services.css);
+@import url(../styles/about.css);
+@import url(../styles/clients.css);
+@import url(../styles/reviews.css);
+@import url(../styles/contacts.css);
+@import url(../styles/footer.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+/* section {
+    margin-bottom: 140px;
+} */
+
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+    /* padding: 0 405px */
+    padding: 0 385px;
+}
+
+.title {
+    margin-bottom: 40px;
+    color: var(--bdbdbd, #BDBDBD);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 138%; /* 33.12px */
+}
+
+.subtitle {
+    color: var(--333333, #333);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 144.555%; /* 69.386px */
+}
