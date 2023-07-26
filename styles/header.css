@@ -1,3 +1,114 @@
 .header {
+    padding: 22px 0;
     background: #F9F9F9;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    gap: 30px;
+}
+
+.header__logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.header__name {
+    color: var(--accent, #005FA3);
+    font-family: Merriweather;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 138.27%; /* 49.777px */
+}
+
+.header__informations-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header__informations {
+    display: flex;
+    gap: 72px;
+}
+
+.header__information {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%; /* 17.16px */
+}
+
+.header__phone,
+.header__clocks,
+.header__mail,
+.header__position {
+    position: relative;
+}
+
+.header__phone::before,
+.header__clocks:before,
+.header__mail:before,
+.header__position::before {
+    position: absolute;
+    left: -25px;
+    display: block;
+    content: '';
+    height: 17px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.header__phone::before {
+    background-image: url(../resources/header/phone.png);
+    width: 10px;
+    left: -15px;
+}
+
+.header__clocks::before {
+    background-image: url(../resources/header/clocks.png);
+    width: 17px;
+}
+
+.header__mail::before {
+    background-image: url(../resources/header/mail.png);
+    width: 22.339px;
+}
+
+.header__position::before {
+    background-image: url(../resources/header/position.png);
+    width: 17px;
+    left: -20px;
+}
+
+.header__links {
+    display: flex;
+    gap: 65px;
+}
+
+.header__link {
+    height: 18px;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: var(--text-color, #222);
+}
+
+.header__link:hover {
+    border-bottom: 1px solid;
+    color: #005FA3;
 }
