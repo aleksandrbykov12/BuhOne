@@ -84,3 +84,15 @@
     border-bottom: 1px solid;
     color: #005fa3;
 }
+
+.contacts__flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.contacts__maps {
+    height: 450px;
+    width: 600px;
+    background-color: #005fa3;
+}

@@ -1,6 +1,7 @@
 .reviews {
     padding: 140px 0;
     color: #000;
+    background: #f9f9f9;
 }
 
 .reviews h3 {
@@ -11,6 +12,7 @@
     padding: 45px 95px;
     border-radius: 30px;
     background: #EBEBEB;
+    box-shadow: 2px 1px 12px 3px #4F4F4F;
 }
 
 .reviews__text {
