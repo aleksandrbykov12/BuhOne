@@ -15,6 +15,15 @@ body {
     width: 100%;
 }
 
+a,
+button {
+    transition: 0.5s;
+}
+
+img {
+    width: 100%;
+}
+
 /* section {
     margin-bottom: 140px;
 } */
