@@ -2,6 +2,10 @@
     color: #fff;
 }
 
+.welcome img {
+    height: 670px;
+}
+
 .welcome__image {
     position: relative;
     height: 670px;
